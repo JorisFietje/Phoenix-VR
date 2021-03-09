@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -102,17 +103,21 @@ body {
     font-family: arial;
 }
   
+
 .product1 {
     margin-left: 20px;
 }
   
 .product2 {
-    margin-left: 400px;
-    height: 350px;
+    margin-left: 350px;
 }
   
 .product3 {
-    margin-left: 800px;
+    margin-left: 680px;
+}
+
+.product4 {
+    margin-left: 1030px;
 }
   
   
