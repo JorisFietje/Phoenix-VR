@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    </head>
+    <body>
+      <img class="logo" src="image/Multiversum_logowit.png">
+      <b><a class="logo-a">Multiversum</a></b>
+      <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          <a href="shopping.html"><i class="fas fa-shopping-cart"></i></a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="product.html">Product</a>
+          <a href="index.html" >Home</a>
+          </a>
+      </div>
+      <div class="container">
+      <h1>Contact</h1>
+    <div class="col-4">
+      Contactgegevens:<br><br>
+      Multiversum B.V. <br>
+      Steenweg 21, 3511 JL, Utrecht<br>
+      info@multiversum.nl<br>
+      +31 6 123 456 78<br>
+      KVK nummer: 87654321<br>
+      BTW nummer: NL 123456789B01<br>
+      </div>
+    <div class="col-4">
+      <div class="container-form">
+        <form action="/action_page.php" methode="POST">
+          <label for="vname">Voornaam</label>
+          <input type="text" id="vname" name="firstname">
+      
+          <label for="aname">Achternaam</label>
+          <input type="text" id="aname" name="lastname">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" pattern="^[^\s,@]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+      
+          <label for="subject">Onderwerp</label>
+          <textarea id="subject" name="onderwerp" style="height:200px"></textarea>
+      
+          <input type="submit" value="Verstuur">
+        </form>
+      </div>
+    </div>
+    <div class="col-4"></div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+             x.className += " responsive";
+          } else {
+             x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>
