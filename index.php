@@ -12,11 +12,11 @@
       <div class="topnav" id="myTopnav">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
-            <a href="shopping.html"><i class="fas fa-shopping-cart"></i></a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="product.html">Product</a>
-            <a href="index.html"  class="active">Home</a>
+            <a href="shopping.php"><i class="fas fa-shopping-cart"></i></a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="product.php">Product</a>
+            <a href="index.php"  class="active">Home</a>
           </a>
       </div>
 

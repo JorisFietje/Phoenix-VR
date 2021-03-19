@@ -5,24 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    </head>
     <body>
       <img class="logo" src="image/Multiversum_logowit.png">
       <b><a class="logo-a">Multiversum</a></b>
       <div class="topnav" id="myTopnav">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
-            <a href="shopping.html"><i class="fas fa-shopping-cart"></i></a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="product.html">Product</a>
-            <a href="index.html"  class="active">Home</a>
+            <a href="shopping.php"><i class="fas fa-shopping-cart"></i></a>
+            <a href="about.php" class="active">About</a>
+            <a href="contact.php">Contact</a>
+            <a href="product.php">Product</a>
+            <a href="index.php">Home</a>
           </a>
       </div>
 
         <div class="container">
             <div class="row">
-              <h1>Multiversum VR Webshop</h1>
+              <h1>About</h1>
             </div>
         </div>
 
