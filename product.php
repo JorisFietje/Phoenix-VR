@@ -29,83 +29,203 @@
             </a>
           </div>
 
-          <h3>VR Brillen:<br></h3><p>
-            Met een VR-bril duik je in de wondere wereld van Virtual Reality! Zet een VR-bril op je hoofd en geniet van de mooiste VR-applicaties en 360-graden video's. Kies voor een VR-bril die je op een PC aansluit voor extra power, of voor een standalone VR-bril om te genieten van extra vrijheid zonder kabels.
-        </p>
+  <h2>VR Brillen:<br></h2>
+  <p>
+  <p>Met een VR-bril duik je in de wondere wereld van Virtual Reality! </p>
+  <p>Zet een VR-bril op je hoofd en geniet van de mooiste VR-applicaties en 360-graden video's.
+    Kies voor een VR-bril die je op een PC aansluit voor extra power, of voor een standalone VR-bril om te genieten van extra vrijheid zonder kabels.
+  </p>
 
+  <div class="container">
+    <div class="row">
 
-        <!---Producten--> 
-
-        <div class="small-container"></div>
-        <h2>Producten</h2>
-        <div class="row">
-            <div class="row-4">
-                <img src="image/oculusgo.png" alt="Oculus Go" style="width:100%">
-                <h4>Oculus Go 32GB</h4>
-                <p class="price">€ 329,47</p>
-                <p>ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje) 
-                voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. <a href="#productdetail.html">Lees verder »</a></p>
-                <p><button>In Winkelwagen</button></p>
-            </div>
-
+      <div class="card" style="width: 18rem;">
+        <img src="image/oculusgo.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Oculus Go 32GB</h5>
+          <p class="card-text">ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje)
+            voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. </p>
+            <span class="price">€ 329,47</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
         </div>
+      </div>
 
-
-
-
-
-
-
-
-        <div class="container">
-            <div class="row">
-                <div class="card product1">   
-
-                    <img src="image/oculusgo.png" alt="Oculus Go" style="width:100%">
-                    <h1>Oculus Go 32GB</h1>
-                    <p class="price">€ 329,47</p>
-                    <p>ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje) 
-                    voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. <a href="#productdetail.html">Lees verder »</a></p>
-                    <p><button>In Winkelwagen</button></p>
-                  </div>
-                   
-
-
-                  <div class="card product2">   
-                    <img src="image/oculusrift.png" alt="oculusrift" style="width:100%">
-                    <h1>Oculus Rift S</h1>
-                    <p class="price">€ 329,47</p>
-                    <p>ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje) 
-                    voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. <a href="#productdetail.html">Lees verder »</a></p>
-                    <p><button>In Winkelwagen</button></p>
-                  </div>
-
-                  <div class="card product3">   
-                    <img src="image/oculusquest.png" alt="oculus quest" style="width:100%">
-                    <h1>Oculus Quest 2</h1>
-                    <p class="price">€ 329,47</p>
-                    <p>ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje) 
-                    voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. <a href="#productdetail.html">Lees verder »</a></p>
-                    <p><button>In Winkelwagen</button></p>
-                  </div>
-                </div>
-                <div class="col-4"></div>
-                </div>
-
-
-                <div class="card product4">   
-                    <img src="image/samsung.png" alt="Samsung" style="width:100%">
-                    <h1>Samsung New Gear VR</h1>
-                    <p class="price">€ 329,47</p>
-                    <p>ExLibris: Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje) 
-                    voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. <a href="#productdetail.html">Lees verder »</a></p>
-                    <p><button>In Winkelwagen</button></p>
-                  </div>
-                </div>
-                <div class="col-4"></div>
-               
-                
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
         </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/FOTONAAM.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">TITEL-PRODUCT</h5>
+          <p class="card-text">BESCHRIJVING-PRODUCT</p>
+            <span class="price">€ 0,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
 
 
     <script>
