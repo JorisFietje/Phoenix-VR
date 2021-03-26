@@ -2,33 +2,40 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     </head>
 
     <body>
-        <img class="logo" src="image/Multiversum_logowit.png">
-        <b><a class="logo-a">Multiversum</a></b>
-        <div class="topnav" id="myTopnav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.php">Multiversum</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-<<<<<<< HEAD:product.php
-                <a href="shopping.php"><i class="fas fa-shopping-cart"></i></a>
-                <a href="about.php">About</a>
-                <a href="contact.php">Contact</a>
-                <a href="product.php" class="active">Product</a>
-                <a href="index.php">Home</a>
-=======
-                <a href="shoppingcart.html">Shoppingcart</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="products.html" class="active">Product</a>
-                <a href="index.html">Home</a>
->>>>>>> 6aa301393c02729c382d7779f61e8d11102c77f2:product.html
-            </a>
-          </div>
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="product.php">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.php">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shopping.php">Shoppingcart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="tekst">
   <br>
   <h2>VR Brillen:<br></h2>
   <p>
@@ -37,9 +44,10 @@
     Kies voor een VR-bril die je op een PC aansluit voor extra power, of voor een standalone VR-bril om te genieten van extra vrijheid zonder kabels.
   </p>
   <br>
+</div>
 
 
-  <div class="container">
+  
     <div class="row">
 
       <div class="card" style="width: 18rem;">
@@ -203,100 +211,6 @@
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">TITEL-PRODUCT</h5>
-          <p class="card-text">BESCHRIJVING-PRODUCT</p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-      <br>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">TITEL-PRODUCT</h5>
-          <p class="card-text">BESCHRIJVING-PRODUCT</p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">TITEL-PRODUCT</h5>
-          <p class="card-text">BESCHRIJVING-PRODUCT</p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">TITEL-PRODUCT</h5>
-          <p class="card-text">BESCHRIJVING-PRODUCT</p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">TITEL-PRODUCT</h5>
-          <p class="card-text">BESCHRIJVING-PRODUCT</p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text">/p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text"></p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text"></p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-
-      <div class="card" style="width: 18rem;">
-        <img src="image/FOTONAAM.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <p class="card-text"></p>
-            <span class="price">€ 0,-</span>
-            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </div>
-
-
 
 
     </div>
@@ -304,19 +218,12 @@
   </div>
 
 
-    <script>
-            function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-        }
-    }
-    </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>
 
 
 </div>
 </html>
+
