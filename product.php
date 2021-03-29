@@ -36,6 +36,7 @@
 </nav>
 <div class="container">
   <div class="tekst">
+      
   <br>
   <h2>VR Brillen:<br></h2>
   <p>
@@ -48,6 +49,7 @@
 
 
   
+  <div class="container">
     <div class="row">
 
       <div class="card" style="width: 18rem;">
@@ -211,6 +213,100 @@
         </div>
       </div>
 
+      <div class="card" style="width: 18rem;">
+        <img src="image/Wonky.jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Wonky Monkey 3D VR Glasses</h5>
+          <p class="card-text">Speel spelletjes of bekijk je favoriete films en series op een nieuw niveau met deze VR bril! Dankzij de verstelbare, elastieken band zit de bril altijd prettig op uw hoofd en daarnaast zijn de lenzen geheel naar wens af te stellen.</p>
+            <span class="price">€ 20,01 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+      <br>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/konig.jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">König Virtual Reality</h5>
+          <p class="card-text">Bevestig uw smartphone in deze virtual reality-bril en ga helemaal op in een film- of gamewereld verstelbare lenzen en ergonomisch gevormde kussentjes garanderen een perfecte pasvorm en een indrukwekkende gebruikerservaring</p>
+            <span class="price">€ 14,95 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/celexon.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Celexon VRG-1</h5>
+          <p class="card-text">Duik met de celexon 3D Virtual Reality bril Economy VRG 1 in combinatie met uw smartphone in de virtuele 3D-wereld. Beleef een geheel nieuw gevoel bij het bekijken van bewegende content.</p>
+            <span class="price">€ 5,99 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/brofish.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">BroFish Cardboard VR</h5>
+          <p class="card-text">De Brofish Cardboard VR Glasses maakt het in combinatie met je smartphone mogelijk om een hele betaalbare virtual reality headset te bezitten. Deze VR werkt moderne smartphones zoals de iPhone en Android smartphones zoals Samsung, HTC en Google Nexus.</p>
+            <span class="price">€ 32,32 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/shinecon.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">VR Shinecon Virtual Reality Glasses</h5>
+          <p class="card-text">Pak je smartphone en duik een virtuele wereld in met de VR Shinecon Virtual Reality Glasses. Klik je Android of iOS smartphone in de universele houder voor 4 tot 6 inch, en je bent klaar voor je VR ervaring. Met een de meegeleverde bluetooth controller.</p>
+            <span class="price">€ 24,95 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/homido.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Homido Smartphone Virtual Reality Headset</h5>
+          <p class="card-text">Dit is de nieuwste en meest veelzijdige virtual reality headset die werkt met verschillende smartphones met Android en iOS. De headset is draadloos, heeft een gezichtsveld van 100 en is te gebruiken met meer dan 300 games in de Homido App.</p>
+            <span class="price">€ 69,53 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/trust.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Trust Urban Exos - Universele 3D Virtual Reality Bril - Zwart</h5>
+          <p class="card-text">Trust EXOS 3D. Soort: Smartphonegebaseerd headmounted display, Kleur van het product: Zwart, Kijkhoek: 80°. Minimumafmetingen schermcompatibiliteit: 8,89 cm (3.5''), Maximumafmetingen schermcompatibiliteit: 15,2 cm.</p>
+            <span class="price">€ 24,98 -</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/xrspace.png" class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-title">XRSpace Manova</h5>
+          <p class="card-text">Met het oog gericht op de toekomst van virtual reality biedt de XRSpace Manova haarscherpe beeldresolutie, een elegant en lichtgewicht design en ingebouwde hand-tracking. De Snapdragon 845-processor biedt voldoende grafische kracht om VR-applicaties en games op te kunnen spelen.</p>
+          <span class="price">€ 499,-</span>
+        <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+     </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="image/DPVR.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">DPVR P1</h5>
+          <p class="card-text">DPVR is een wereldwijd toonaangevend bedrijf op het gebied van virtual reality ontwikkeling. Met eersteklas standalone VR, PC VR en eigen content platform 3DBoBo staat DPVR aan de top van de (Aziatische) VR markt.</p>
+            <span class="price">€ 229,-</span>
+            <a href="#" class="btn btn-primary">Bekijk</a> <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+
+
 
 
     </div>
@@ -218,9 +314,24 @@
   </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
+ 
+    
+    
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+    
+    
 </body>
 
 
