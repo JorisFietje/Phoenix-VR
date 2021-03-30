@@ -6,8 +6,12 @@
     max-width: 300px;
     max-height: 550px;
     background-color: white;
+<<<<<<< HEAD
     margin-left: 35px;
     margin-bottom: 20px;
+=======
+    margin: auto;
+>>>>>>> 94a7b60eb52249cd9ec23ddf9a2848639aacf88e
     text-align: center;
     color: #222f3e;
     font-family: arial;
