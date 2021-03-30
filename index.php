@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <a class="navbar-brand" href="index.php">Multiversum</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,16 +20,16 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.php">Product</a>
+                        <a class="nav-link" href="product.php">Producten</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="about.php">Over Ons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shopping.php">Shoppingcart</a>
+                        <a class="nav-link" href="shopping.php">Winkelwagen</a>
                     </li>
                 </ul>
             </div>
@@ -47,10 +47,11 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="image/lux-interaction-xL3xDwWx7_s-unsplash.jpg" alt="Second slide" />
+                   
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="image/thisisengineering-raeng-jqD8bSQY6Ic-unsplash.jpg" alt="Third slide" />
-                </div>
+                  </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,7 +64,7 @@
         </div>
 
         <div class="container">
-        <center><h1>Best Verkochte VR-Brillen</h1></center>
+        <center><h1 style="margin: 40px;">Best Verkochte VR-Brillen</h1></center>
           <div class="row">
             
           <div class="card" style="width: 18rem; margin: 40px;">
@@ -96,7 +97,9 @@
         </div>
           </div>
         </div>
-
+        <footer class="bg-dark" style="marin-top: 60px;">
+          <p>Gemaakt door Joris Fietjé en Thabit Oulali</p>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     </body>

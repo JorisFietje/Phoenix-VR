@@ -6,48 +6,12 @@
     max-width: 300px;
     max-height: 550px;
     background-color: white;
-<<<<<<< HEAD
     margin-left: 35px;
     margin-bottom: 20px;
-=======
-    margin: auto;
->>>>>>> 94a7b60eb52249cd9ec23ddf9a2848639aacf88e
     text-align: center;
     color: #222f3e;
     font-family: arial;
 }
-  
-
-.product1 {
-    margin-left: 20px;
-}
-  
-.product2 {
-    margin-left: 350px;
-}
-  
-.product3 {
-    margin-left: 680px;
-}
-
-.product4 {
-    margin-top: -9px;
-    margin-bottom: 20px;
-    margin-left: 1020px;
-}
-
-.col-4{
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-}
-
-.col-4 img{
-    width: 100%;
-}
-  
-  
   
 .price {
     color: black;
