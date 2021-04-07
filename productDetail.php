@@ -31,7 +31,7 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
         $product_desc = $row["product_desc"];
         $product_price = $row["product_price"];
         $product_pic = $row["product_pic"];
-        /
+        
     }else{
         $error = 1;
         $error_message = "Kan product niet vinden.";
@@ -58,7 +58,7 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
                             <p class="card-text"><?php echo $product_desc; ?></p>
                             <p class="card-text">
                             <span class="price">€ <?php echo $product_price; ?>,-</span></p>
-                            <a href="#" class="btn btn-primary">Voeg toe aan winkelmand <i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-primary">Voeg toe aan winkelwagen <i class="fas fa-shopping-cart"></i></a>
                             
                         </div>
                     </div>
