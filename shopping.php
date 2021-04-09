@@ -1,45 +1,98 @@
+<?php
+$page = "shoppingCart";
+$error = 0;
+$error_message = "";
+
+$totalPrice = 1000;
+$tax = 21;
+$subtotal = 0;
+
+$cookie_name = "shoppingCart";
+$cookie_value = "1";
+
+if(isset($_COOKIE["shoppingCart"])){
+  echo "<span>";
+  echo var_dump(json_decode($_COOKIE["shoppingCart"]));
+  echo "</span>";
+}
+?>
+
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    </head>
-    <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.php">Multiversum</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<head>
+  <?php include_once("incl/header.php"); ?>
+</head>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.php">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="product.php">Producten</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.php">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.php">Over Ons</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="shopping.php">Winkelwagen <span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
+<body>
+  <?php include_once("incl/menu.php"); ?>
+
+  <div class="container">
+    <h1>Winkelwagen</h1>
+    <?php
+
+
+    ?>
+    <div class="col-12">
+      <div class="container-cart">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">#</th>
+              <th scope="col">Product naam</th>
+              <th scope="col">Product prijs</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img width="50" style="border-radius:5px;" src="./image/celexon.png"></td>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td><a href="#" class="btn btn-primary">Bekijk</a></td>
+            </tr>
+
+          </tbody>
+        </table>
+        <br><br><br>
+        <?php
+        $totalTax = $totalPrice/100 * $tax;
+        $subTotal = $totalPrice+$totalTax;
+        ?>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Totaal</th>
+              <th scope="col">Totaal btw(21%)</th>
+              <th scope="col">Subtotaal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&euro;<?php echo $totalPrice;?>,-</td>
+              <td>&euro;<?php echo $totalTax;?>,-</td>
+              <th>&euro;<?php echo $subTotal;?>,-</th>
+            </tr>
+          </tbody>
+        </table>
+        <a href="#" class="btn btn-success">Betaal <i class="fab fa-paypal"></i></a>
+                                    
+      </div>
+    </div>
   </div>
-</nav>
 
-<footer class="bg-dark" style="marin-top: 60px;">
-<p>Gemaakt door Joris Fietjé en Thabit Oulali</p>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
 </body>
+
 </html>
