@@ -12,7 +12,7 @@ $cookie_value = "1";
 
 if(isset($_COOKIE["shoppingCart"])){
   echo "<span>";
-  echo var_dump(json_decode($_COOKIE["shoppingCart"]));
+  //echo var_dump(json_decode($_COOKIE["shoppingCart"]));
   echo "</span>";
 }
 ?>
