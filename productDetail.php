@@ -58,7 +58,7 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
                             <p class="card-text"><?php echo $product_desc; ?></p>
                             <p class="card-text">
                             <span class="price">€ <?php echo $product_price; ?>,-</span></p>
-                            <a href="#" class="btn btn-primary">Voeg toe aan winkelwagen <i class="fas fa-shopping-cart"></i></a>
+                            <a href="shopping.php" class="btn btn-primary">Voeg toe aan winkelwagen <i class="fas fa-shopping-cart"></i></a>
                             
                         </div>
                     </div>
