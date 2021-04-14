@@ -3,22 +3,21 @@ $page = "shoppingCart";
 $error = 0;
 $error_message = "";
 
-$totalPrice = 1000;
+$totalPrice = 0;
 $tax = 21;
 $subtotal = 0;
 
-$cookie_name = "shoppingCart";
-$cookie_value = "1";
-
-if(isset($_COOKIE["shoppingCart"])){
-  echo "<span>";
-  //echo var_dump(json_decode($_COOKIE["shoppingCart"]));
-  echo "</span>";
+if(isset($_GET["emptyCart"])){
+    $cookie_name = "shoppingCart";
+    $emptyArray = array("empty");
+    setcookie($cookie_name, json_encode($emptyArray), time() + (86400 * 30), "/");
+    header("Location: http://localhost/Phoenix-VR-master/shopping.php");
 }
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <?php include_once("incl/header.php"); ?>
 </head>
@@ -45,20 +44,58 @@ if(isset($_COOKIE["shoppingCart"])){
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><img width="50" style="border-radius:5px;" src="./image/celexon.png"></td>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td><a href="#" class="btn btn-primary">Bekijk</a></td>
-            </tr>
+            <?php
+            if (isset($_COOKIE["shoppingCart"])) {
+              $cart = json_decode($_COOKIE["shoppingCart"]);
+              if ($cart[0] == "empty") {
+                $error = 1;
+                $error_message = "Winkelwagen is leeg";
+              }
+            }
+            if (!$error) {
+
+              for ($i = 0; $i <= count($cart) - 1; $i++) {
+
+                $query = "SELECT * FROM products WHERE ID = ?";
+
+                $pre_query = $conn->prepare($query);
+                $pre_query->bind_param("i", $cart[$i]);
+                $pre_query->execute();
+                $result = $pre_query->get_result();
+                if ($result->num_rows >= 1) {
+                  $row = $result->fetch_assoc();
+                  $totalPrice = $totalPrice + $row["product_price"];
+                  echo "<tr>
+                          <td><img width=\"50\" style=\"border-radius:5px;\" src=\"" . $row["product_pic"] . "\"></td>
+                          <th scope=\"row\">" . $row["id"] . "</th>
+                          <td>" . $row["product_name"] . "</td>
+                          <td>€" . $row["product_price"] . ",-</td>
+                          <td><a href=\"productDetail.php?id=" . $row["id"] . "\" class=\"btn btn-primary\">Bekijk</a></td>
+                        </tr>";
+                        
+                } else {
+                  echo "<tr>
+                          <td><img width=\"50\" style=\"border-radius:5px;\" src=\"https://i.tyroni.com/yylyr4xe.png\"></td>
+                          <th scope=\"row\">#</th>
+                          <td>Product bestaat niet meer</td>
+                          <td></td>
+                          <td><a href=\"#\" style=\"cursor: not-allowed;\" class=\"btn btn-danger\" >Bekijk</a></td>
+                        </tr>";
+                }
+              }
+            }else{
+              echo "<div class=\"alert alert-danger\" role=\"alert\">Winkelwagen is leeg</div>"; 
+            }
+            ?>
 
           </tbody>
         </table>
-        <br><br><br>
+        <br><br>
         <?php
-        $totalTax = $totalPrice/100 * $tax;
-        $subTotal = $totalPrice+$totalTax;
+        if(!$error){
+        echo "<a href=\"shopping.php?emptyCart\" class=\"btn btn-warning\">Maak winkelwagen leeg</a><br><br>";
+        $totalTax = $totalPrice / 100 * $tax;
+        $subTotal = $totalPrice + $totalTax;
         ?>
         <table class="table">
           <thead>
@@ -70,14 +107,14 @@ if(isset($_COOKIE["shoppingCart"])){
           </thead>
           <tbody>
             <tr>
-              <td>&euro;<?php echo $totalPrice;?>,-</td>
-              <td>&euro;<?php echo $totalTax;?>,-</td>
-              <th>&euro;<?php echo $subTotal;?>,-</th>
+              <td>&euro;<?php echo $totalPrice; ?>,-</td>
+              <td>&euro;<?php echo $totalTax; ?>,-</td>
+              <th>&euro;<?php echo $subTotal; ?>,-</th>
             </tr>
           </tbody>
         </table>
         <a href="#" class="btn btn-success">Betaal <i class="fab fa-paypal"></i></a>
-                                    
+         <?php } ?>
       </div>
     </div>
   </div>
