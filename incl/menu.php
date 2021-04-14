@@ -35,8 +35,9 @@
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shopping.php">Winkelwagen</a>
+                        <a class="nav-link" href="shopping.php"><i class="fas fa-shopping-cart"></i> Winkelwagen</a>
                     </li>
                 </ul>
+                
             </div>
         </nav> 
