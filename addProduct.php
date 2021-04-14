@@ -6,6 +6,8 @@ $error_message = "";
 <!DOCTYPE html>
 <html>
 
+
+
 <?php include_once("incl/header.php"); ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -68,6 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 echo "<div class=\"alert alert-success\" role=\"alert\">" . $success_message . "</div>";
             }
             ?>
+
+            
             <form action="addProduct.php" method="POST">
                 <div class="mb-3">
                     <label class="form-label">Product naam</label>
