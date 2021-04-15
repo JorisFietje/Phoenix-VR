@@ -7,7 +7,7 @@ $error_message = "";
 <html>
 
 
-
+<!-- meta tags geinclude -->
 <?php include_once("incl/header.php"); ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -58,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 </head>
 
 <body>
+<!-- navbar geinclude -->
     <?php include_once("incl/menu.php"); ?>
 
     <div class="container container-form">

@@ -3,15 +3,16 @@ $page = "product";
 ?>
 <!DOCTYPE html>
 <html>
-
+<!-- meta tags geinclude -->
 <?php include_once("incl/header.php"); ?>
 </head>
 
 <body>
+<!-- navbar geinclude -->
   <?php include_once("incl/menu.php"); ?>
 
   <br>
-
+<!-- errors -->
   <div class="container">
     <div class="row">
       <br>
@@ -22,7 +23,7 @@ $page = "product";
 
         if(isset($_GET["failedAdd"])){
           if($_GET["failedAdd"] == "ID"){
-            echo "<div class=\"alert alert-danger\" role=\"alert\">Product is niet toegevoegd aan winkelwage vanwege een ongeldig product ID!</div>";
+            echo "<div class=\"alert alert-danger\" role=\"alert\">Product is niet toegevoegd aan winkelwagen vanwege een ongeldig product ID!</div>";
           }else{
             echo "<div class=\"alert alert-danger\" role=\"alert\">Er is wat misgegaan tijdens het toevoegen van het product aan uw winkelwagen!</div>";
           }
@@ -39,7 +40,7 @@ $page = "product";
     </div>
   </div>
 
-
+<!-- alle producten worden hier uit de database gehaald en gedisplayed -->
   <div class="container">
     <div class="row">
       <?php
@@ -68,8 +69,10 @@ $page = "product";
         //echo "No results.";
       }
       ?>
-
-
+  </div>
+</div>
+<!-- Footer geinclude -->
+<?php include_once("incl/footer.php"); ?>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
       </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
@@ -87,9 +90,5 @@ $page = "product";
         }
       </script>
 
-</body>
-
-
-</div>
-      
+  </body>  
 </html>

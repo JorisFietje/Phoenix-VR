@@ -1,4 +1,5 @@
 <?php
+// Connectie aangemaakt met de database
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";

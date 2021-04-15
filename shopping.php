@@ -19,12 +19,15 @@ if(isset($_GET["emptyCart"])){
 <html>
 
 <head>
+  <!-- meta tags geinclude -->
   <?php include_once("incl/header.php"); ?>
 </head>
 
 <body>
+<!-- navbar geinclude -->
   <?php include_once("incl/menu.php"); ?>
 
+  <!-- Winkelwagen -->
   <div class="container">
     <h1>Winkelwagen</h1>
     <?php
@@ -53,7 +56,7 @@ if(isset($_GET["emptyCart"])){
               }
             }
             if (!$error) {
-
+              
               for ($i = 0; $i <= count($cart) - 1; $i++) {
 
                 $query = "SELECT * FROM products WHERE ID = ?";
@@ -65,6 +68,7 @@ if(isset($_GET["emptyCart"])){
                 if ($result->num_rows >= 1) {
                   $row = $result->fetch_assoc();
                   $totalPrice = $totalPrice + $row["product_price"];
+                  //Product wordt hier gedisplayed
                   echo "<tr>
                           <td><img width=\"50\" style=\"border-radius:5px;\" src=\"" . $row["product_pic"] . "\"></td>
                           <th scope=\"row\">" . $row["id"] . "</th>
@@ -91,6 +95,7 @@ if(isset($_GET["emptyCart"])){
           </tbody>
         </table>
         <br><br>
+        <!-- Winkel leegmaken functie -->
         <?php
         if(!$error){
         echo "<a href=\"shopping.php?emptyCart\" class=\"btn btn-warning\">Maak winkelwagen leeg</a><br><br>";
@@ -118,7 +123,6 @@ if(isset($_GET["emptyCart"])){
       </div>
     </div>
   </div>
-
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
