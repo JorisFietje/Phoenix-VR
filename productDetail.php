@@ -2,14 +2,13 @@
 $page = "productDetail";
 $error = 0;
 $error_message = "";
-?>*/
+?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<!-- meta tags geinclude -->
+
 <?php include_once("incl/header.php"); ?>
-<!-- Get van product.php wordt hier opgehaald, om de juiste product te laten zien -->
 <?php
 if (isset($_GET["id"]) && !empty($_GET["id"])) {
 
@@ -39,20 +38,20 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
         
     }
     
-}
+} 
 ?>
 
 </head>
 
 <body>
-<!-- navbar geinclude -->
     <?php include_once("incl/menu.php"); ?>
 
     <br>
-    <!-- Product wordt hier gedisplayed -->
+
+    <br><br>
     <div class="container container-form">
         <div class="row">
-            <div class="card mb-3" style="max-width: 80%;">
+            <div class="card mb-3 product_detail">
                 <div class="row g-0">
                     <div class="col-md-4">
                     <img src="<?php echo $product_pic; ?>" alt="Product foto">
@@ -72,8 +71,7 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
 
         </div>
     </div>
-    <!-- Footer geinclude -->
-    <?php include_once("incl/footer.php"); ?>
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
