@@ -20,7 +20,7 @@ if (isset($_GET["id"]) && !empty($_GET["id"])) {
     $pre_query->execute();
     if ($pre_query->errno) {
         $error = 1;
-        $error_message = "Kan product door onbekende fout selecteren uit database.";
+        $error_message = "Kan product door onbekende fout niet selecteren uit database.";
         exit();
     }
     $result = $pre_query->get_result(); 

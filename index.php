@@ -40,7 +40,7 @@
           <div class="row">
             
           <div class="card" style="width: 18rem; margin: 40px;">
-        <img src="image/oculusgo.png" class="card-img-top">
+        <img src="image/vr-brillen/oculusgo.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Oculus Go 32GB</h5>
           <p class="card-text">Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje)
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="card" style="width: 18rem; margin: 40px;">
-        <img src="image/oculusrifts.png" class="card-img-top">
+        <img src="image/vr-brillen/oculusrifts.png" class="card-img-top">
         <div class="card-body">
         <h5 class="card-title">Oculus Rift S</h5>
           <p class="card-text">Goedkoop (relatief), scherp zat en met een (powered) usb hub (of makkelijk omruilen via coolblue, zeker binnen 30 dagen) is de setup snel en makkelijk.</p>
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="card" style="width: 18rem; margin: 40px;">
-        <img src="image/oculusquest2.png" class="card-img-top">
+        <img src="image/vr-brillen/oculusquest2.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Oculus Quest 2</h5>
           <p class="card-text">De Quest 2 is een standalone-VR-headset die optioneel ook met een pc kan worden gekoppeld, voor gebruik met VR-apps voor de pc.</p>
