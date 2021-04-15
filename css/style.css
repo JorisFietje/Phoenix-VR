@@ -5,16 +5,27 @@
 
 body {
     background-color: #222f3e !important;
-    margin: 65px !important;
     color: white !important;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.carousel {
+  max-height: 830px;
+}
+
+.carousel-inner {
+  max-height: 830px;
 }
   
 /* topnav */
 
 .topnav {
     overflow: hidden;
-    background-color: #1dd1a1;
+    background-color: #1dd1a1 !important;
 }
   
 .topnav a {

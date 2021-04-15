@@ -44,7 +44,7 @@
         <div class="card-body">
           <h5 class="card-title">Oculus Go 32GB</h5>
           <p class="card-text">Voor het specifieke doel waarvoor ik de Oculus Go in wil zetten (eenvoudige VR-ervaring in een museum middels een 360 graden filmpje)
-            voldoet de headset in veel opzichten uitstekend. De prijs/kwaliteitsverhouding is ook dik in orde. </p>
+            voldoet de headset in veel opzichten uitstekend. </p>
             <span class="price">€ 329,47</span><br>
             <a href="shopping.php" class="btn btn-primary">In winkelwagen</a>
           </div>
@@ -53,7 +53,7 @@
         <img src="image/oculusrifts.png" class="card-img-top">
         <div class="card-body">
         <h5 class="card-title">Oculus Rift S</h5>
-          <p class="card-text">Goedkoop (relatief), scherp zat en met een (powered) usb hub (of makkelijk omruilen via coolblue, zeker binnen 30 dagen) is de setup snel en makkelijk. Tracking is prima overigens, behalve bij langdurig achter de rug zwaaien met de controllers, al weet ik niet waarom je dat ooit zou doen.</p>
+          <p class="card-text">Goedkoop (relatief), scherp zat en met een (powered) usb hub (of makkelijk omruilen via coolblue, zeker binnen 30 dagen) is de setup snel en makkelijk.</p>
             <span class="price">€ 342,50,-</span><br>
             <a href="shopping.php" class="btn btn-primary">In winkelwagen</a>
           </div>
@@ -62,7 +62,7 @@
         <img src="image/oculusquest2.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Oculus Quest 2</h5>
-          <p class="card-text">De Quest 2 is een standalone-VR-headset die optioneel ook met een pc kan worden gekoppeld, voor gebruik met VR-apps voor de pc. Ten opzichte van zijn voorganger biedt de Quest 2 een snellere processor, een beeldscherm met een twee keer hogere resolutie etc.</p>
+          <p class="card-text">De Quest 2 is een standalone-VR-headset die optioneel ook met een pc kan worden gekoppeld, voor gebruik met VR-apps voor de pc.</p>
             <span class="price">€ 349,-</span><br>
             <a href="shopping.php" class="btn btn-primary">In winkelwagen</a>
           </div>

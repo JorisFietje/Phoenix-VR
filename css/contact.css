@@ -1,5 +1,9 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -26,11 +30,11 @@ input[type=email]{
   }
 
 label {
-    color: #000;
+    color: white;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #1dd1a1;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -39,12 +43,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #18b188;
 }
 
 .container-form {
   max-width: 500px;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #212529;
   padding: 20px;
 }
